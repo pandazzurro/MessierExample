@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms"
+                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                        xmlns:prism="clr-namespace:Prism.Autofac;assembly=Prism.Autofac.Forms"
+                        xmlns:controls="clr-namespace:Messier16.Forms.Controls;assembly=Messier16.Forms.Controls"
+                        x:Class="MessierSample.App">
+    <prism:PrismApplication.Resources>
+        <ResourceDictionary>
+            <Style x:Key="RatingStars" TargetType="controls:RatingBar">
+                <Setter Property="FillColor" Value="#FFBF00" />
+                <Setter Property="HeightRequest" Value="40" />
+            </Style>
+        </ResourceDictionary>
+    </prism:PrismApplication.Resources>
+</prism:PrismApplication>
